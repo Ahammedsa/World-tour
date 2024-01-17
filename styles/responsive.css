@@ -1,0 +1,27 @@
+
+@media screen and (max-width:667px) {
+    .questation-container{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    /* .questation-container{
+      height: 150px; 
+    } */
+    .banner-content h1{
+        color: #FFF;
+        font-family: "Mulish",sans-serif;
+        font-size: 22px;
+        text-align: center;
+        font-weight: 800;
+    }
+    .banner-content p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Mulish",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    }
+   
+}
