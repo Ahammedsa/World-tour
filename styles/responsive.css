@@ -3,11 +3,9 @@
     .questation-container{
         flex-direction: column;
         height: auto;
-        width: 100%;
+        max-width: 335px;
     }
-    /* .questation-container{
-      height: 150px; 
-    } */
+   
     .banner-content h1{
         color: #FFF;
         font-family: "Mulish",sans-serif;
@@ -22,6 +20,146 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
+    /* width: auto; */
     }
+
+    /*  */
+    .row-one, .row-two , .row-three {
+        width: 335px;    
+        height: 176px;  
+    }
+   .row-one, .row-two , .row-three , img {
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+    /* margin: 0 auto; */
+    gap: 15px;
+   } 
+   .row-container-iamge-section{
+    margin: 0 auto;
+    justify-content: center;
+    width: 335px; 
+    padding: 15px;
+   }
+   /* .image-container img{
+    height: 286px;
+    
+   } */
+   .content{
+    width: auto;
+   }
+   .content h4 {
+    font-size: 20px;
+   }
+   .card-container{
+    flex-direction: column;
+    margin: 0 auto;
+   }
+   .why-choise-us-container{
+    width: 335px;
+    height: auto;
+   }
+   .card-container{
+    height: auto;
+    width: 335px;
+   }
+   .icon-card{
+    min-width: 335px;
+    height: 289px;
+   }
+   .why-choise-us-container h4{
+      font-size: 20px;
+   }
+   .why-choise-us-container p{
+     font-size: 20px;
+   }
+   /* deals-and-discount-section starts */
+.deals-and-discount-title{
+text-align: center;
+margin-top: 20px;
+}
+.deals-and-discount-title h4{
+    font-family: "Mulish",sans-serif;
+    font-size: 20px;
+    font-weight: 800;
    
 }
+.deals-and-discount-title p{
+    font-family: "Mulish",sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 24px;
+}
+.frist-background-image{
+max-width: 335px;
+margin: 0 auto;
+border-radius: 16px;
+position: relative;
+}
+.second-background-image{
+    max-width:335px;
+}
+.third-background-image{
+    max-width:335px;
+}
+/* .frist-background-image{
+ position: relative;
+} */
+.content-contaner-of-frist-image{
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    width: 303px;
+    height: 297px;
+
+}
+/* deals-and-discount-    ends */
+/* footer-section starts */
+.footer-line-top{
+    width: 335px;
+height: 1px;
+}
+.footer-line-bottom{
+    width: 335px;
+    height: 1px;
+}
+.footer-section{
+    max-width: 335px;
+}
+.World-travel-title{
+    font-size: 20px;
+    font-weight: 400;
+    }
+    .world-travel{
+     max-width: 335px;
+    }
+    /* Our-Popular-Tours-container */
+    .Our-Popular-Tours-container h4{
+        font-size: 20px;
+        font-weight: 800;
+       
+    }
+    .Our-Popular-Tours-container{
+        max-width: 335px;
+    }
+    .Our-Popular-Tours-container p{
+        font-size: 14px;
+        font-weight: 400;
+      }
+      .Our-Popular-Tours-container{
+         flex-direction: column;
+      }
+      .Our-Popular-Tours-image img{
+        max-width: 335px;
+      }
+      .Our-Popular-Tours-content{
+        max-width: 335px;
+      }
+      .footer-line-bottom h2{
+        font-size: 12px;
+        font-weight: 300;
+        margin-left: 90px;
+        padding-top: 33px;
+      }
+}
+
+

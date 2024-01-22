@@ -73,3 +73,342 @@ line-height: 26px; /* 162.5% */
 .questation-container  .find-now{
     background-color: #FF5400;;
 }
+
+
+/*image section  */
+.row-container-iamge-section{
+    margin: 0;
+    display: grid;
+    width: 1146px; 
+    gap: 24px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+   
+}
+.content{
+    width: 1146px;
+    margin: 24px;
+}
+.your-destination h4{
+  font-family: 'Mulish','sans-serif';
+  font-size: 40px;
+  text-align: center;
+}
+.your-destination p{
+  font-family: 'Mulish','sans-serif';
+  font-size: 20px;
+  text-align: center;
+}
+  .row-one{
+    display: grid;
+    grid-template-columns: repeat(2, 573px);
+    gap: 24px;
+    max-width: 1170px;
+  }
+  .row-two{
+  display: grid;
+    grid-template-columns: repeat( 3 , 374px 474px 274px);
+    gap: 24px;
+    max-width: 1170px;
+  }
+  .row-three{
+   display: grid;
+    grid-template-columns: repeat(2 , 473px 673px);
+    gap: 24px;
+    max-width: 1170px;
+  }
+  
+  /* Style for the image container */
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  .image-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  .image-content h4 {
+    color: #FFF;
+    font-family: 'Mulish','sans-serif';
+     font-size: 28px;
+    font-weight: 800;  
+  }
+ .content  h4{
+color: #131318;
+text-align: center;
+font-family: 'Mulish','sans-serif';
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 24px;
+  }
+  .content p{ 
+    color: #131318;
+text-align: center;
+font-family: 'Mulish','sans-serif';
+font-size: 16px;
+font-weight: 400;
+
+  }
+  /* Style for the images */
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 16px;
+  }
+
+
+
+  .why-choise-us-container{
+   /* width: 1200px; */
+    margin:0  auto;
+    /* text-align: center; */
+    margin-top: 50px;
+    /* padding-left: 30px; */
+  }
+
+
+  .why-choise-us-container h4{
+   margin: 24px;
+   margin-top: 24px;
+   color: #131318;
+   font-family: 'Mulish','sans-serif';
+   font-size: 40px;
+  font-weight: 800;
+  }
+  .why-choise-us-container p{
+   margin-bottom: 40px;
+  color: rgba(19, 19, 24, 0.70);
+  font-family: 'Mulish','sans-serif';
+  font-size: 16px;
+  font-weight: 400;
+  }
+  .card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .icon-card{
+    /* max-width: 573px; */
+    padding-left: 30px;
+    max-width: 573px;
+  
+  }
+  .frist-card{
+    background-color:rgba(251, 181, 99, 0.05) ;
+    border-radius: 16px;
+   border: 1px solid rgba(251, 181, 99, 0.20);
+   padding-bottom: 20px;
+  }
+  .second-card{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+   background-color: rgba(41, 206, 246, 0.05);
+   padding-bottom: 20px;
+  }
+  .third-card{
+    border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  padding-bottom: 20px;
+  }
+  .why-choise-content-title{
+    width: 360px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  }
+  .content{
+   justify-content: center;
+  }
+  /* .third{
+    width: auto;
+    margin: 0 auto;
+  } */
+  .hidden{
+    display: none;
+  }
+  /* deals-and-discount-section starts */
+.deals-and-discount-container{
+  /* width: 1170px; */
+}
+.deals-and-discount-title{
+text-align: center;
+margin-top: 0px;
+padding-top: 40px;
+}
+.deals-and-discount-container h4{
+  font-family: "Mulish",sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+.deals-and-discount-container p{
+  font-family: "Mulish",sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.frist-background-image{
+  background-image: url("../Images/Group\ 39.png");
+  max-width: 1170px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position : center;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 48px;
+}
+.content-contaner-of-frist-image{
+  position: absolute;
+  top:56px;
+  right: 56px;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  width: 579px;
+  height: 389px;
+}
+.content-contaner-of-frist-image{
+ text-align: center;
+}
+.content-contaner-of-frist-image h4{
+ font-size: 20px;
+}
+.content-contaner-of-frist-image p{
+ font-size: 16px;
+}
+.top-title-of-content{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.second-background-image{
+  background-image: url("../Images/Group\ 39.png");
+  max-width: 1170px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position : center;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 48px;
+}
+.third-background-image{
+  background-image: url("../Images/Group\ 39.png");
+  max-width: 1170px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position : center;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 48px;
+}
+/* deals-and-discount-section Ends */
+/* Foooter Section Starts */
+.footer-section{
+  width: 100%;
+ height: 502px;
+ background: rgba(19, 19, 24, 0.05);
+ margin: 0 auto;
+ margin-top: 100px;
+}
+/*  Footer section ends */
+.World-travel{
+  padding-top: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+  margin-bottom: 15px;
+  /* border: 2px solid tomato; */
+  /* width: 420px; */
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom:15px ;
+  
+}
+.details{
+  text-align: center;
+}
+.footer-line-top{
+width: 872px;
+height: 1px;
+background-color:rgba(19, 19, 24, 0.10);
+margin: 0 auto;
+margin-top: 33px;
+}
+.social-image{
+  width: 132px;
+  margin:  auto;
+  margin-top: 33px;
+}
+.footer-line-bottom{
+width: 872px;
+height: 1px;
+background-color:rgba(19, 19, 24, 0.10);
+margin: 0 auto;
+margin-top: 33px;
+}
+
+.World-travel-title{
+font-size: 32px;
+font-weight: 800;
+}
+
+/* Our-Popular-Tours-container starts */
+.Our-Popular-Tours-container{
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.Our-Popular-Tours-content{
+  width: 577px;
+ padding: 24px;
+ display: grid;
+ gap: 24px;
+}
+/* Our-Popular-Tours-container Ends */
+.Our-Popular-Tours-container h4{
+  color: #131318;
+text-align: center;
+font-family: "Mulish",sans-serif;
+font-size: 40px;
+font-weight: 800;
+}
+.Our-Popular-Tours-container p{
+  font-size: 16px;
+  font-weight: 400;
+}
+.Our-Popular-Tours-content button{
+  width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+/* text-decoration: none; */
+border: none;
+color:#fff;
+}
+
+.footer-line-bottom h2{
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 350px;
+  padding-top: 33px;
+}
